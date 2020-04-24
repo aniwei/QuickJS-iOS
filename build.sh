@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # directories
-SOURCE="quickjs-2019-07-09"
-SOURCE_URL="https://bellard.org/quickjs/quickjs-2019-07-09.tar.xz"
+SOURCE="quickjs-2020-04-12"
+SOURCE_URL="https://bellard.org/quickjs/quickjs-2020-04-12.tar.xz"
 FAT="QuickJS_iOS"
 
 THIN=`pwd`/"thin"

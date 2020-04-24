@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "QuickJS"
-    s.version      = "0.0.2019-07-09"
+    s.version      = "0.0.2020-04-12"
     s.summary      = "QuickJS Javascript Engine"
     s.homepage     = "https://bellard.org/quickjs/"
     
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.author       = { "Francis Chong" => "francis@ignition.hk" } # Podspec maintainer
     s.requires_arc = false
     s.platform     = :ios, "10.0" 
-    s.source       = { :git => "https://github.com/siuying/QuickJS-iOS.git", :tag => s.version }
+    s.source       = { :git => "https://github.com/aniwei/QuickJS-iOS.git", :tag => s.version }
     s.default_subspec = 'precompiled'
 
     s.prepare_command = 'sh build.sh'
